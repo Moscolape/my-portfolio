@@ -1,0 +1,206 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Chukwunenye Moses</title>
+    <link rel="shortcut icon" href="img/Moses.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- Scroll to top -->
+    <span class="top" onclick="scrollToTop()"><i id="top" class="fas fa-chevron-up"></i></span>
+
+    <!-- Nav section -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home">
+        <div class="title-group">
+            <img data-aos="zoom-in" id="profile" src="img/Moses.jpg" alt="my pics">
+            <h1 data-aos="fade-right" data-aos-delay="500">Hi! I'm Moses. I live in the frontend world where I build engaging user interfaces for various web applications.</h1>
+            <div data-aos="fade-down" data-aos-delay="800" id="learn">
+                <span>Learn more about me</span>
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About section -->
+    <section id="about">
+        <h1>About Me</h1>
+            <div>
+                <div class="about-div" id="one">
+                    <div class="sub-div" data-aos="fade-up">
+                        <p>Since beginning my tech journey over 3yrs ago, I've interned in startups where I built projects, collaborated with other talented people in shipping real-world web applications, and have also personally done remote work for businesses. I'm naturally curious which makes me an inquisitive learner, and I've been perpetually working on honing my skills one project at a time.</p>
+                        <p>I take great pride in not only being able to complete work to the high standard expected of me but also in going an extra mile wherever possible. I like to code things from scratch, and enjoy bringing my ideas to life in the browser.</p>
+                    </div>
+                    <img data-aos="flip-left" id="journey" src="img/journey.jpg" alt="about-journey">
+                </div>
+                <div class="about-div">
+                    <img data-aos="flip-left" id="mobile" src="img/mobile.jpg" alt="about-belief">
+                    <div class="sub-div" data-aos="fade-up">
+                        <p>As a firm believer of the mobile-first approach and a strong upholder of "fewer lines make better code", I build responsive websites and web apps that provide users the best and most appropriate experience suited to their device and browser by adopting frontend development best practices.</p>
+                        <p>Even though my main experience is in front-end development, I also have a keen interest in design. Given that producing a modern website requires the combination of design, server technology, and the layer that users interacts with, I believe having experience in both design and development allows for making the most optimal user experiences.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Projects section -->
+    <section id="projects">
+        <h1>My Projects</h1>
+        <p>Over the last few years of skilling and upskilling, I've built some projects - both personal and for clients. Here are some of those projects I have built, including a short description and an indication of the skills used;</p>
+        <div class="single">
+            <img  data-aos="zoom-out" id="store" src="img/store.png" alt="">
+            <div class="text-box" id="text-box">
+                <h2>Mosco Shopping Store</h2>
+                <p id="text">A scalable e-commerce progressive web application built majorly with React and typescript for the frontend using SCSS and styled components for styling. I used Redux to manage the state of the carts & users, and then Firebase as a database to hold the shop items. There was also an integration of stripe payments to make it look more realistic even though this is actually a personal project and not built for a client.</p>
+                <div class="links">
+                    <div>
+                        <a href="https://moscowears.netlify.app" target="_blank"><span>Visit website <i id="external" class="fas fa-arrow-up-right-from-square"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Moscolape/mosco-clothing-store" target="_blank"><span id="git">Github Repo <i id="external" class="fas fa-arrow-up-right-from-square"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single">
+            <img  data-aos="zoom-in" id="store" src="img/techpreneur.png" alt="">
+            <div class="text-box" id="text-box">
+                <h2>Techpreneur Girls</h2>
+                <p id="text">Techpreneur is a national initiative that is geared on The Advancement of S.T.E.M Education for students in public and private schools in Nigeria. It is a platform where students are inspired and tasked to provide solutions to their community. This is a project I built for a client using HTML5, CSS3, and JavaScript for the frontend, then adopting the services of PHP and mySQL for the backend and database.</p>
+                <div class="links">
+                    <div>
+                        <a href="https://techpreneur.netlify.app" target="_blank"><span>Visit website <i id="external" class="fas fa-arrow-up-right-from-square"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Moscolape/TechPreneur" target="_blank"><span id="git">Github Repo <i id="external" class="fas fa-arrow-up-right-from-square"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single">
+            <img  data-aos="zoom-out" id="store" src="img/scroll.png" alt="">
+            <div class="text-box" id="text-box">
+                <h2>Animated Landing Page</h2>
+                <p id="text">I came across an animation library and after sourcing the code on its github repo, alongside a tailwind-css starter-kit by creative Tim, I decided to build a mobile responsive landing page with it to learn its perks. I'm glad and lucky to have come across this library because it just makes animation a whole lot easier. <b>Fun fact:</b> <i>I used the animation library for most of the animations you've observed on this portfolio website.</i></p>
+                <div class="links">
+                    <div>
+                        <a href="https://moscolape.github.io/Animate-on-scroll/" target="_blank"><span>Visit website <i id="external" class="fas fa-arrow-up-right-from-square"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Moscolape/Animate-on-scroll" target="_blank"><span id="git">Github Repo <i id="external" class="fas fa-arrow-up-right-from-square"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single" id="single">
+            <img  data-aos="zoom-in" id="store" src="img/quotes.png" alt="">
+            <div class="text-box" id="text-box">
+                <h2>Quotes Generator</h2>
+                <p id="text">In this project, I used an API to build a random quote generator that has a Twitter integration feature where you can share any quote that appeals to you, directly to your twitter feed.</p>
+                <div class="links">
+                    <div>
+                        <a href="https://moscolape.github.io/Quote-generator/" target="_blank"><span>Visit website <i id="external" class="fas fa-arrow-up-right-from-square"></i></span></a>
+                    </div>
+                    <div>
+                        <a href="https://github.com/Moscolape/Quote-generator" target="_blank"><span id="git">Github Repo <i id="external" class="fas fa-arrow-up-right-from-square"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills">
+        <div class="title-groups">
+            <h1>My Skills</h1>
+            <p style="text-align: justify;">Over the years, I've learnt and developed a couple of technical skills, digital skills, and employability skills, most of which are to a high degree of proficiency. Some of these skills are shown below;</p>
+            <div class="buttons">
+                <button data-aos="fade-in" data-aos-delay="200" class="primary">HTML5</button>
+                <button data-aos="fade-in" data-aos-delay="300" class="secondary">CSS3</button>
+                <button data-aos="fade-in" data-aos-delay="400" class="primary" disabled>Sass/Less</button>
+                <button data-aos="fade-in" data-aos-delay="500" class="outline">Styled Components</button>
+                <button data-aos="fade-in" data-aos-delay="600" class="secondary outline">JavaScript</button>
+                <button data-aos="fade-in" data-aos-delay="700" class="outline" disabled>Typescript</button>
+            </div>
+            <div class="buttons">
+                <button data-aos="fade-in" data-aos-delay="1300" class="outline">PHP</button>
+                <button data-aos="fade-in" data-aos-delay="1200" class="outline">MySQL</button>
+                <button data-aos="fade-in" data-aos-delay="1100" class="outline">ReactJs</button>
+                <button data-aos="fade-in" data-aos-delay="1000" class="secondary">Performance Optimization</button>
+                <button data-aos="fade-in" data-aos-delay="900" class="primary" disabled>SEO</button>
+                <button data-aos="fade-in" data-aos-delay="800" class="primary">Mobile Responsive Design</button>
+            </div>
+            <div class="buttons">
+                <button data-aos="fade-in" data-aos-delay="1400" class="secondary">Web Development</button>
+                <button data-aos="fade-in" data-aos-delay="1500" class="primary" disabled>Frontend Development</button>
+                <button data-aos="fade-in" data-aos-delay="1600" class="primary">Creative Thinking</button>
+                <button data-aos="fade-in" data-aos-delay="1700" class="outline">Teamwork</button>
+                
+                <button data-aos="fade-in" data-aos-delay="1800" class="secondary outline">Redux</button>
+                <button data-aos="fade-in" data-aos-delay="1900" class="outline" disabled>DOM Manipulation</button>
+            </div>
+            <div class="buttons">
+                <button data-aos="fade-in" data-aos-delay="2300" class="secondary outline">Problem Solving</button>
+                <button data-aos="fade-in" data-aos-delay="2200" class="outline" disabled>Time Management</button>
+                <button data-aos="fade-in" data-aos-delay="2100" class="primary" disabled>Communication</button>
+                <button data-aos="fade-in" data-aos-delay="2000" class="secondary">Ability to Learn</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact section -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <div>
+            <p>Wanna connect or reach out to learn more about what I do? Please feel free to interact with me on or check any of these platforms;</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/Moscolape" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/moses-chukwunenye-738293192/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/moscolian" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:chunkums088@gmail.com"><i id="fab" class="fas fa-envelope"></i></a>
+            <a href="https://medium.com/@chunkums088" target="_blank"><i class="fab fa-medium"></i></a>
+            <a href="https://wa.me/+2348115456386" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <!-- script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 200, // values from 0 to 3000, with step 50ms
+            duration: 1500, // values from 0 to 3000, with step 50ms
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
