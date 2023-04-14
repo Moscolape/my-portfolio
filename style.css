@@ -516,6 +516,6 @@ footer {
     #CV {
         top: 10px;
         left: 10px;
-        width: 75px;
+        right: unset;
     }
 }
