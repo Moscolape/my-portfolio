@@ -1,3 +1,3 @@
-#My Portfolio
+#MyPortfolio
 
-###Author: Chukwunenye Moses
+##Author: Chukwunenye Moses
