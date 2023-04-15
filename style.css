@@ -97,6 +97,10 @@ h1 {
     text-align: center;
 }
 
+.title-groups p {
+    text-align: center;
+}
+
 #learn {
     display: flex;
     flex-direction: column;
@@ -126,6 +130,11 @@ h1 {
     justify-content: center;
 }
 
+#projects h1, #about h1, #skills h1, #contact h1 {
+    color: var(--primary-color);
+    font-family: Tilt Prism;
+}
+
 #myskill {
     display: flex;
     flex-direction: column;
@@ -139,13 +148,14 @@ h1 {
 }
 
 .sub-div {
-    width: 40%;
+    width: 45%;
     height: 20%;
+    text-align: justify;
 }
 
 #journey, #mobile {
-    width: 35%;
-    height: 450px;
+    width: 43%;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -168,7 +178,11 @@ h1 {
 /* Projects Section */
 .buttons {
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+#first {
+    margin-top: 70px;
 }
 
 button {
@@ -203,6 +217,11 @@ button {
     justify-content: space-around;
     padding: 50px 0px;
     border-bottom: 1px solid var(--primary-color);
+}
+
+#pro1 {
+    width: 70%;
+    text-align: justify;
 }
 
 #single {
@@ -434,6 +453,10 @@ footer {
         margin-top: 20px;
     }
 
+    .title-groups p {
+        text-align: justify;
+    }
+
     p {
         font-size: 16px;
     }
@@ -479,6 +502,11 @@ footer {
     
     .title-group {
         width: 90%;
+    }
+
+    #pro1 {
+        width: 95%;
+        text-align: justify;
     }
 
     .buttons {
