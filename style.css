@@ -516,6 +516,10 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
+    #first {
+        margin-top: 30px;
+    }
+
     button {
         margin: 5px;
         height: 55px;
