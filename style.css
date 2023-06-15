@@ -337,7 +337,7 @@ p {
     align-items: center;
     z-index: 100;
     position: fixed;
-    left: 25px;
+    right: 25px;
     top: 30px;
 }
 
